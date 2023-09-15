@@ -42,4 +42,25 @@ header h1 {
     border: 2px solid #ff6600; /* Quirky border for portfolio images */
 }
 
+/* ... (previous CSS code) ... */
+
+.animated-box {
+    text-align: center;
+    animation: bounce 2s infinite; /* Apply a bounce animation */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* ... (continue with more styles and animations) ... */
+
 /* Add more styles and animations as needed */
