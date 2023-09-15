@@ -1,0 +1,45 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply quirky styling */
+body {
+    font-family: 'Comic Sans MS', cursive; /* Use a quirky font */
+    background-color: #ffcc00; /* Use a fun background color */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ff6600; /* Use a vibrant header background color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem; /* Increase the font size for emphasis */
+    letter-spacing: 5px; /* Add letter spacing for a quirky effect */
+}
+
+.quirky-section {
+    padding: 20px;
+    background-color: #f0f0f0; /* Use a subtle background color */
+    margin-bottom: 20px;
+}
+
+.quirky-section h2 {
+    font-size: 2rem; /* Slightly larger font for section headings */
+}
+
+.portfolio-item {
+    margin-top: 20px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border: 2px solid #ff6600; /* Quirky border for portfolio images */
+}
+
+/* Add more styles and animations as needed */
